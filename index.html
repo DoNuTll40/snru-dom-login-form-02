@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework | FORM | Array</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <h1>Homework | FORM | Array</h1>
+    <hr>
+    <div class="container">
+        <div class="card-left">
+            <div class="card">
+                <h1>ข้อมูลใน Array</h1>
+                <p>username : andy | password : andy1234</p>
+                <p>username : bobby | password : bobby2345</p>
+                <p>username : candy | password : candy3456</p>
+                <p>username : Donut | password : donut1140</p>
+            </div>
+        </div>
+        <div class="card-right">
+            <form class="login-form">
+                <label class="label" for="username">Username</label>
+                <input type="text" id="username">
+                <label id="userlabel"></label>
+                <label class="label" for="password">Password</label>
+                <input type="text" id="password">
+                <label id="passlabel"></label>
+                <select name="role" id="role">
+                    <option selected disabled>Select Role</option>
+                    <option value="Buyer">Buyer</option>
+                    <option value="Seller">Seller</option>
+                    <option value="Visitor">Visitor</option>
+                </select>
+                <label id="selectlabel"></label>
+                <input type="submit" value="Login">
+            </form>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
