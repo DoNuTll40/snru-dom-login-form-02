@@ -7,6 +7,7 @@
     padding: 0px;
     user-select: none;
     font-family: 'itim';
+    transition: 1s;
 }
 
 body {
